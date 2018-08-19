@@ -234,7 +234,7 @@ const Chaincode = class{
         var bValue = args[3];
         await  stub.putState(a,Buffer.from(aValue));
         await  stub.putState(b,Buffer.from(bValue));
-        return shim.success(Buffer.from('heima chaincodinit successs'));
+        return shim.success(Buffer.from('MaiJiantian chaincodinit successs'));
     }
     
     async Invoke(stub){
