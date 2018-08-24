@@ -257,7 +257,7 @@ shim.start(new Chaincode());
 ## 20. 把chaincode注册给peer
 他们之间通过grcp协议通信
 ```shell
-CORE_CHAINCODE_ID_NAME="mycc:v0"  npm start -- --peer.address grpc://192.168.0.1:7052
+CORE_CHAINCODE_ID_NAME="mycc:v0"  npm start -- --peer.address grpc://172.17.0.1:7052
 ```
 ![image](https://note.youdao.com/yws/public/resource/95c087db9c2f4249616a4058c521ca13/xmlnote/94BCB93C2A2C4187865814C0844C15AD/390)
 
